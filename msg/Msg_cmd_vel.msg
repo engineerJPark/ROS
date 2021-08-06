@@ -1,1 +1,1 @@
-std_msgs/Float64MultiArray msg
+geometry_msgs/Twist cmd_vel

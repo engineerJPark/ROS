@@ -19,7 +19,7 @@ int main(int argc, char **argv){
     ros::NodeHandle nh;
 
     // ros::Subscriber cmd_vel_subscriber(TOPIC_NAME, messageCb);
-    ros::Subscriber cmd_vel_subscriber =nh.subscribe("cmd_vel", 10, messageCb);
+    ros::Subscriber cmd_vel_subscriber =nh.subscribe(TOPIC_NAME, 10, messageCb);
     
     ros::spin();
 
